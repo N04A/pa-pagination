@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/45651369/73009155-92360980-3e42-11ea-8e72-f81dc5e6c3e9.png)
+![mainlogo](https://user-images.githubusercontent.com/45651369/73010420-fb1e8100-3e44-11ea-802f-4e63d2582de3.png)
 
 ![Language](https://img.shields.io/badge/Language-JS-blue.svg)
 
