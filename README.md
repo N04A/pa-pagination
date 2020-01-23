@@ -11,6 +11,14 @@ Pagination using Javascript, Angular, HTML for **Page Designer**.
 Function allow developers to add pagination to data.
 They are designed to be simple to use, create and compose. The next version of **PA-Pagination** will also feature enhanced capabilities and improved.
 
+## Features
+
+- Set record per page.
+- Set stater page.
+- Prev and Next button .
+- Page numbers button.
+- Can be used with DATA that has nested objects
+
 ## Supported Platforms
 
 - Browser
