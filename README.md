@@ -57,14 +57,14 @@ Attribute		      | Type	        | Description
 
 ## Example : Call Function
 
-**1) In case the DATA is one object.
+**1) In case the DATA is one object.**
 ```js
 funtion paginationPAGE_NAME(){
     loadPage(window.myScope.Store["STORE_NAME"].OBJECT_NAME)
 }
 ```
 
-**2) In case the DATA is an object in object.
+**2) In case the DATA is an object in object.**
 ```js
 funtion paginationPAGE_NAME(){
     loadPage(window.myScope.Store["STORE_NAME"].OBJECT_NAME.OBJECT_NAME)
