@@ -6,13 +6,16 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-^4.0.0-blue.svg)
 ![Angular](https://img.shields.io/badge/Angular-^1.5.8-blue.svg)
 
-* Pagination using Javascript, Angular, HTML for Page Designer.
+Pagination using Javascript, Angular, HTML for **Page Designer**. 
+
+Function allow developers to add pagination to data.
+They are designed to be simple to use, create and compose. The next version of **PA-Pagination** will also feature enhanced capabilities and improved.
 
 ## Supported Platforms
 
 - Browser
-- iOS
 - Android
+- iOS
 
 ## Requirements
 
