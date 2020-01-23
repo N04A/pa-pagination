@@ -41,8 +41,8 @@ git clone https://github.com/name/name.git
 
 Attribute		      | Type	        | Description
 ---				      | ---			    | ---
-`loadParam()`		  | *Function*	    | Call function loadParam(param).
-`param`		          | *Object*		    | Data to display.
+`loadPage()`		  | *Function*	    | Load data, call function loadParam(param).
+`param`		          | *Object*		| Data to display.
 `record_per_page`	  | *Number*	    | Set number of records per page.
 `current_page`	      | *Number*	    | Set starter page, call function changePage(number, default)
 
