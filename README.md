@@ -25,9 +25,10 @@
 
 [Demo](http://wiki.openkore.com/index.php/How_to_run_OpenKore#Requirements)
 
+
 ## Quickstart
 
-1. Clone or download **zip** the project.
+1. Clone or download [zip](https://github.com/N04A/pa-pagination/archive/master.zip) the project.
 ```
 git clone https://github.com/name/name.git
 ```
