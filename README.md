@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Demo](http://wiki.openkore.com/index.php/How_to_run_OpenKore#Requirements)
+[Demo](https://www.google.co.th)
 
 
 ## Quickstart
