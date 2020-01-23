@@ -49,14 +49,14 @@ Attribute		      | Type	        | Description
 
 ## Example : Call Function
 
-**1) กรณีที่ Store มี Object**
+**1) In case the DATA is one object.
 ```js
 funtion paginationPAGE_NAME(){
     loadPage(window.myScope.Store["STORE_NAME"].OBJECT_NAME)
 }
 ```
 
-**2) กรณีที่ Store มี Object ซ้อน Object**
+**2) In case the DATA is an object in object.
 ```js
 funtion paginationPAGE_NAME(){
     loadPage(window.myScope.Store["STORE_NAME"].OBJECT_NAME.OBJECT_NAME)
