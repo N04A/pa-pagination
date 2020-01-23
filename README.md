@@ -1,5 +1,4 @@
-![logo](https://docs.google.com/uc?id=14wN29WYsiuDWQWZ5MqpSoAisfh6cU1Nv)
-
+![logo](https://drive.google.com/uc?export=view&id=14wN29WYsiuDWQWZ5MqpSoAisfh6cU1Nv)
 
 ![Language](https://img.shields.io/badge/Language-JS-blue.svg)
 
