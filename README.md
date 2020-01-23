@@ -1,4 +1,4 @@
-![logo](https://drive.google.com/uc?export=view&id=14wN29WYsiuDWQWZ5MqpSoAisfh6cU1Nv)
+![logo](https://user-images.githubusercontent.com/45651369/73009155-92360980-3e42-11ea-8e72-f81dc5e6c3e9.png)
 
 ![Language](https://img.shields.io/badge/Language-JS-blue.svg)
 
