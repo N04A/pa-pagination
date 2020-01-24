@@ -49,10 +49,10 @@ git clone https://github.com/name/name.git
 
 Attribute		      | Type	        | Description
 ---				      | ---			    | ---
-`loadPage()`		  | *Function*	    | Load data, call function loadParam(param).
+`loadPage()`		  | *Function*	    | Load data, call function `loadParam(param).`
 `param`		          | *Object*		| Data to display.
 `record_per_page`	  | *Number*	    | Set number of records per page.
-`current_page`	      | *Number*	    | Set starter page, call function changePage(number, default)
+`current_page`	      | *Number*	    | Set starter page, call function `changePage(number, default)`
 
 
 ## Example : Call Function
@@ -70,12 +70,11 @@ funtion paginationPAGE_NAME(){
     loadPage(window.myScope.Store["STORE_NAME"].OBJECT_NAME.OBJECT_NAME)
 }
 ```
-
-## Work with MicroFlow
+**Work with MicroFlow**
 
 Connect MicroFlow(List Data) to **Component**
 
-After Call **MicroFlow** , call function **loadPage(PARAM)**
+After Call **MicroFlow** , call function `loadPage(PARAM)`
 
 ## Example : Button Previous and Next 
 
