@@ -47,28 +47,30 @@ git clone https://github.com/name/name.git
 
 ## Usage
 
-Attribute		      | Type	        | Description
----				      | ---			    | ---
-`loadPage()`		  | *Function*	    | Load data, call function `loadParam(param).`
-`param`		          | *Object*		| Data to display.
-`record_per_page`	  | *Number*	    | Set number of records per page.
-`current_page`	      | *Number*	    | Set starter page, call function `changePage(number, default)`
+Attribute		                                   | Type	        | Default | Description
+---				                                   | ---			| ---     | ---
+`loadPage(data, currentPage, recordPerPage)`	    | *Function*	|         | Load data, call function `loadParam(param)`.
+`data`		                                       | *Object*		|         | Data to display.
+`currentPage`		                               | *Number*		| 1       |Set starter page, call function `changePage(number, default)` Use : "" or '' (empty string) to set **default value**.
+`recordPerPage`		                               | *Number*	    | 10       | Set number of records per page. Use : "" or '' (empty string) to set **default value**
 
 
+
+Example : loadPage(data, '', '');
 
 ## Example : Call Function
 
 **1) In case the DATA is one object.**
 ```js
 funtion paginationPAGE_NAME(){
-    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME)
+    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME, '', '')
 }
 ```
 
 **2) In case the DATA is an object in object.**
 ```js
 funtion paginationPAGE_NAME(){
-    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME.OBJECT_NAME)
+    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME.OBJECT_NAME, '', '')
 }
 ```
 **Work with MicroFlow**
