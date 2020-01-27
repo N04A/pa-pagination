@@ -15,7 +15,7 @@ They are designed to be simple to use, create and compose. The next version of *
 
 - Set record per page.
 - Set starter page.
-- Prev and Next button .
+- Prev and Next button.
 - Page numbers button.
 - Can be used with DATA that has nested objects
 
