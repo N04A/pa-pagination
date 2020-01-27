@@ -51,7 +51,7 @@ Attribute		                                   | Type	        | Default | Descrip
 :---				                                   | :--- 			| :---      | :--- 
 `loadPage(data, currentPage, recordPerPage)`	    | *Function*	|         | Load data, call function `loadParam(param)`.
 `data`		                                       | *Object*		|         | Data to display.
-`currentPage`		                               | *Number*		| 1       |Set starter page, call function `changePage(number, default)` **Use : "" or '' (empty string) to set default value.**
+`currentPage`		                               | *Number*		| 1       |Set starter page. **Use : "" or '' (empty string) to set default value.**
 `recordPerPage`		                               | *Number*	    | 10       | Set number of records per page. **Use : "" or '' (empty string) to set default value**
 
 
