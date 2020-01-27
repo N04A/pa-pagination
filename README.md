@@ -48,7 +48,7 @@ git clone https://github.com/name/name.git
 ## Usage
 
 Attribute		                                   | Type	        | Default | Description
----				                                   | ---			| ---     | ---
+:---				                                   | :--- 			| :---      | :--- 
 `loadPage(data, currentPage, recordPerPage)`	    | *Function*	|         | Load data, call function `loadParam(param)`.
 `data`		                                       | *Object*		|         | Data to display.
 `currentPage`		                               | *Number*		| 1       |Set starter page, call function `changePage(number, default)` Use : "" or '' (empty string) to set **default value**.
