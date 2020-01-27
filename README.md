@@ -77,6 +77,8 @@ Connect MicroFlow(List Data) to **Component**
 
 After Call **MicroFlow** , call function `loadPage(PARAM)`
 
+![aftercall](https://user-images.githubusercontent.com/45651369/73172462-ad9c5f80-4135-11ea-952e-8833a2eb86b1.png)
+
 ## Example : Button Previous and Next 
 
 ```html
