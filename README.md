@@ -83,10 +83,12 @@ After Call **MicroFlow** , call function `loadPage(PARAM)`
 
 ## Example : Button Previous and Next 
 
+Copy-paste the ``CODE`` into your `<HTM Page>` to load Button.
+
 ```html
 <ul class="pagination justify-content-center">
     <li id="pagination" class="page-item" onclick="prevPage()">
-        <a class="page-link" aria-disabled="true" href="#" tabindex="-1">Previous</a>
+        <a class="page-link" href="#">Previous</a>
     </li>
     <li class="page-item indicator" pg-is-list="true" pg-store="Store['allButton']">
         <a class="page-link" onclick="changePage(this)" href="#">{{$index+1}}</a></li>
