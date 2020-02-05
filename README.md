@@ -57,6 +57,7 @@ Attribute		                                   | Type	        | Default | Descrip
 
 
 Example : loadPage(data, 1, 10);
+
 Example : loadPage(data); //Default currentPage & recordPerPage 
 
 ## Example : Call Function
