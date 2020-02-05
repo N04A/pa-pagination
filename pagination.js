@@ -18,7 +18,6 @@ function loadPage(tempStore, currentPage, recordPerPage) {
         records_per_page = recordPerPage;
     }
     store = tempStore;
-    //Change Store Name
     objData = JSON.stringify(store);
     objData = JSON.parse(objData);
     outputBO = Object.keys(store)[0];
