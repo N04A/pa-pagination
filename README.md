@@ -65,14 +65,14 @@ Example : loadPage(data); //Default currentPage & recordPerPage
 **1) In case the DATA is one object.**
 ```js
 funtion paginationPAGE_NAME(){
-    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME, '', '')
+    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME)
 }
 ```
 
 **2) In case the DATA is an object in object.**
 ```js
 funtion paginationPAGE_NAME(){
-    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME.OBJECT_NAME, '', '')
+    loadPage(window.myScope.Store["FLOW_NAME"].OBJECT_NAME.OBJECT_NAME)
 }
 ```
 **Work with MicroFlow**
