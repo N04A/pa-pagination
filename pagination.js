@@ -22,7 +22,7 @@ function loadPage(tempStore, currentPage, recordPerPage) {
     objData = JSON.parse(objData);
     outputBO = Object.keys(store)[0];
     //Count Page
-    allPage = numPage;
+    allPage = numPage();
     //Start Page is : 1
     changePage(currentPage, store, recordPerPage);
     //Generate pagination
